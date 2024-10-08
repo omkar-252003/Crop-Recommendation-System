@@ -20,7 +20,8 @@ start = date.today()
 end = start + relativedelta(months=3)
 def get_weather(city_name):
 	#city_name = 'Bangalore'
-	lat, lon = get_lat_lon(city_name, '921e19f4a9efe753614e783829875323')
+	lat, lon = get_lat_lon(city_name, 'XXXXXXXXXXXXXXXXX')
+	#add your app code in the place of XXXXXXXXXXXXXXXXX
 	url = "https://climate-api.open-meteo.com/v1/climate"
 	params = {
 		"latitude": lat,
