@@ -72,10 +72,19 @@ README.md
 
 ## Installation
 - Install Python from the official Python website if you haven't already.
-- Install Flask by running pip install flask in your terminal/command prompt.
-- Clone this repository by running git clone https://github.com/Yashas711/crop-recommendation-system.git.
-- Navigate to the project directory by running `cd crop-recommendation-system`.
-- Install the required dependencies by running `pip install -r requirements.txt`.
+- Install Flask by running pip install flask in your `terminal/command prompt`.
+- Clone this repository by running
+   ```
+  git clone https://github.com/Yashas711/crop-recommendation-system.git
+  ```
+- Navigate to the project directory by running
+  ```
+  cd crop-recommendation-system
+  ```
+- Install the required dependencies by running
+  ```
+  pip install -r requirements.txt
+  ```
 
 ## How to Contribute
 Feel free to submit issues and enhancement requests or fork the repository and submit pull requests. Contributions are welcome!
@@ -90,4 +99,6 @@ Feel free to submit issues and enhancement requests or fork the repository and s
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Note
-This application assumes that the crop_recomendation_model module is implemented and functional. You may need to modify the app.py file to accommodate any changes to the model's API.
+- This application assumes that the crop_recomendation_model module is implemented and functional. You may need to modify the app.py file to accommodate any changes to the model's API.
+- Crate an account in open-meteo by visiting https://open-meteo.com
+- You will get an API key, copy that API key and past the API key in the OPEN_METEO.py file in the place of "XXXXXXXXXXXXXX."
